@@ -35,7 +35,7 @@
 
 //    Paste the code for your selected color between the parentheses.
 //    It should now look something like this (the code will be different):   
-fill(#995900);
+fill(#E15E30);
 // 6. The next shape you draw will be in the color you selected. 
 //    NOTE: You have to put the fill command with the color you want, 
 //    BEFORE you draw the shape.
@@ -45,14 +45,92 @@ fill(#995900);
 // MAKE SURE YOU SAVE YOUR CODE 
 rect(00,00, 1200,1200);
 fill(#FFFFFF);
-rect(300,600, 20,150);
-rect(330,600, 20,150);
-rect(460,600, 20,150);
-rect(490,600, 20,150);
-rect(620,600, 20,150);
-rect(650,600, 20,150);
-rect(780,600, 20,150);
-rect(810,600, 20,150);
-rect(940,600, 20,150);
-rect(970,600, 20,150);
-1150 2
+rect(230,600, 20,150);
+rect(260,600, 20,150);
+rect(390,600, 20,150);
+rect(420,600, 20,150);
+rect(550,600, 20,150);
+rect(580,600, 20,150);
+rect(710,600, 20,150);
+rect(740,600, 20,150);
+rect(870,600, 20,150);
+rect(900,600, 20,150);
+
+rect(870,450, 50,150);
+rect(710,450, 50,150);
+rect(550,450, 50,150);
+rect(390,450, 50,150);
+rect(230,450, 50,150);
+
+rect(920,500, 90,20);
+rect(140,500, 90,20);
+
+ellipse(890,399, 120,120);
+ellipse(890,399, 110,120);
+ellipse(890,399, 100,120);
+ellipse(890,399, 90,120);
+ellipse(890,399, 80,120);
+ellipse(890,399, 70,120);
+ellipse(890,399, 60,120);
+ellipse(890,399, 50,120);
+ellipse(890,399, 40,120);
+ellipse(890,399, 30,120);
+ellipse(890,399, 20,120);
+ellipse(890,399, 10,120);
+ellipse(890,399, 1,120);
+
+ellipse(590,399, 120,120);
+ellipse(590,399, 110,120);
+ellipse(590,399, 100,120);
+ellipse(890,399, 90,120);
+ellipse(890,399, 80,120);
+ellipse(890,399, 70,120);
+ellipse(890,399, 60,120);
+ellipse(890,399, 50,120);
+ellipse(890,399, 40,120);
+ellipse(890,399, 30,120);
+ellipse(890,399, 20,120);
+ellipse(890,399, 10,120);
+ellipse(890,399, 1,120);
+
+ellipse(890,399, 120,120);
+ellipse(890,399, 110,120);
+ellipse(890,399, 100,120);
+ellipse(890,399, 90,120);
+ellipse(890,399, 80,120);
+ellipse(890,399, 70,120);
+ellipse(890,399, 60,120);
+ellipse(890,399, 50,120);
+ellipse(890,399, 40,120);
+ellipse(890,399, 30,120);
+ellipse(890,399, 20,120);
+ellipse(890,399, 10,120);
+ellipse(890,399, 1,120);
+
+ellipse(890,399, 120,120);
+ellipse(890,399, 110,120);
+ellipse(890,399, 100,120);
+ellipse(890,399, 90,120);
+ellipse(890,399, 80,120);
+ellipse(890,399, 70,120);
+ellipse(890,399, 60,120);
+ellipse(890,399, 50,120);
+ellipse(890,399, 40,120);
+ellipse(890,399, 30,120);
+ellipse(890,399, 20,120);
+ellipse(890,399, 10,120);
+ellipse(890,399, 1,120);
+
+ellipse(890,399, 120,120);
+ellipse(890,399, 110,120);
+ellipse(890,399, 100,120);
+ellipse(890,399, 90,120);
+ellipse(890,399, 80,120);
+ellipse(890,399, 70,120);
+ellipse(890,399, 60,120);
+ellipse(890,399, 50,120);
+ellipse(890,399, 40,120);
+ellipse(890,399, 30,120);
+ellipse(890,399, 20,120);
+ellipse(890,399, 10,120);
+ellipse(890,399, 1,120);
