@@ -16,12 +16,12 @@ void setup() {
   
 // 2. The code below loads your face picture into the program. 
 //     Make sure the file name is correct for the face image you saved earlier
-face = loadImage("face.jpg");
+face = loadImage("Potter likes guns.jpeg");
   
 // 3. Set the size of the sketch. Make it big enough to show the face you chose.
-
+size (900,900);
 // 4. Resize the face so it is the same size as the sketch
-
+ size (900,900);
 // 5. Drag and drop an image with a mustache onto this sketch. 
 //    Try to find one with a transparent background. Use the same idea as in step 1.
 //    Make sure the file name is correct for the mustache image you saved.  
