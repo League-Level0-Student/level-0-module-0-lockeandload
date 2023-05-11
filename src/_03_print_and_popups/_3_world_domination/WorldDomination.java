@@ -13,8 +13,10 @@ public class WorldDomination {
 if(math.equals("window")) {
 	JOptionPane.showMessageDialog(null,"Your a banana ");
 }
+else {
+	JOptionPane.showMessageDialog(null, "the success of a nation is determined by materialistic and socioeconomic factors, read a FREAKING BOOK!");
+}
 		// 3. Otherwise, tell them to sign up for classes at The League.
-
 	}
 }
 
