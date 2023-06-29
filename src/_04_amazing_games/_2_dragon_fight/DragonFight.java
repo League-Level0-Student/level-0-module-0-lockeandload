@@ -16,14 +16,15 @@ public class DragonFight {
 		// 1. Create some variables to hold health levels
 		
 			// playerHealth to store your health - set it equal to 100
-	
+	int playerHealth=(100);
 			// dragonHealth to store the dragon's health - set it equal to 100
-
+	int dragonHealth=(60000);
 		// 2. Create some variables to hold the attack strengths. These will be given different values later. 
 		
 			// playerAttack to store the damage the player's attack will do - set it equal
 			// to 0 for now.
-	
+	int playerAttack=(0);
+	int dragonAttack=(0);
 			// dragonAttack to store the damage the dragon's attack will do - set it equal
 			// to 0 for now.
 
@@ -35,14 +36,18 @@ public class DragonFight {
 
 				// 3. Ask the player in a pop-up if they want to attack the dragon with a yell
 				// or a kick
-	
+			String attack = JOptionPane.showInputDialog("do you want to (tatletale) or (get him canceled on twitter)");
 				// 4. If they typed in "yell":
-	
+			if(attack.equals("tattletale")) {
+				 playerAttack=(-111111-222222);
+			}
 					  // -- Find a random number between 0 and 10 and store it in playerAttack. Use
 					  // ran.nextInt(10)
-			
+			if(attack.equals("get him canceled on twitter")) {
+				playerAttack=(500);
+			}
 				// 5. If they typed in "kick":
-	
+			
 					  // -- Find a random number between 0 and 25 and store it in playerAttack.
 		
 				// 6. Subtract the player attack value from the dragon's health
