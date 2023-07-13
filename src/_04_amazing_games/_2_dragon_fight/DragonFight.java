@@ -39,7 +39,7 @@ public class DragonFight {
 			String attack = JOptionPane.showInputDialog("do you want to (tatletale) or (get him canceled on twitter)");
 				// 4. If they typed in "yell":
 			if(attack.equals("tattletale")) {
-				 playerAttack=(-111111-222222);
+				 playerAttack=(-11111-222222);
 			}
 					  // -- Find a random number between 0 and 10 and store it in playerAttack. Use
 					  // ran.nextInt(10)
@@ -51,18 +51,19 @@ public class DragonFight {
 					  // -- Find a random number between 0 and 25 and store it in playerAttack.
 		
 				// 6. Subtract the player attack value from the dragon's health
-
+			(dragonHealth) -= (playerAttack);
 			// THE DRAGON RETALIATES
 
 				// 7. Find a random number between 0 and 35 and store it in dragonAttack
-	
+	dragonAttack=(-7-40);
 				// 8. Subtract the dragon attack value from the player's health
-
+		playerHealth -= dragonAttack;
 			// ASSESS THE DAMAGE
 
 				// 9. If the player's health is less than or equal to 0, the game is over,
 				//    call the playerLost() method
-	
+		
+		
 			
 				// 10. If the dragon's health is less than or equal to 0, the game is over,
 				//     call the dragonLost() method
@@ -70,8 +71,8 @@ public class DragonFight {
 			
 				// 11.  Pop up a message that tells us how much health the player and
 				// 		dragon have left.
-
-			
+		String playerHp = JOptionPane.showInputDialog(playerHealth);
+		String dragonHp = JOptionPane.showInputDialog(dragonHealth);
 			// (Bonus: Also display the amount of health that was lost by each in this
 			// round)
 			
