@@ -18,7 +18,7 @@ public class DragonFight {
 			// playerHealth to store your health - set it equal to 100
 	int playerHealth=(100);
 			// dragonHealth to store the dragon's health - set it equal to 100
-	int dragonHealth=(60000);
+	int dragonHealth=(6000);
 		// 2. Create some variables to hold the attack strengths. These will be given different values later. 
 		
 			// playerAttack to store the damage the player's attack will do - set it equal
@@ -39,8 +39,11 @@ public class DragonFight {
 			String attack = JOptionPane.showInputDialog("do you want to (tatletale) or (get him canceled on twitter)");
 				// 4. If they typed in "yell":
 			if(attack.equals("tattletale")) {
-				 playerAttack=(-11111-222222);
-			}
+				 
+				Random gen =new Random (); 
+			int num = gen.nextInt(22222) + -11111;
+			playerAttack= num;
+				 }
 					  // -- Find a random number between 0 and 10 and store it in playerAttack. Use
 					  // ran.nextInt(10)
 			if(attack.equals("get him canceled on twitter")) {
@@ -55,7 +58,9 @@ public class DragonFight {
 			// THE DRAGON RETALIATES
 
 				// 7. Find a random number between 0 and 35 and store it in dragonAttack
-	dragonAttack=(-7-40);
+			Random gen =new Random (); 
+			int num1 = gen.nextInt(20) + -15;
+			dragonAttack=(num1);
 				// 8. Subtract the dragon attack value from the player's health
 		playerHealth -= dragonAttack;
 			// ASSESS THE DAMAGE
@@ -76,21 +81,22 @@ public class DragonFight {
 			// (Bonus: Also display the amount of health that was lost by each in this
 			// round)
 			
-
+		if (playerHealth < 1) {
+		
+		}
 		} // this is the end of the while loop
-
+		
 	}
-
 	static void playerLost() {
 		// 11. Tell the player that they have been defeated by the dragon and have no treasure
-
+	 JOptionPane.showMessageDialog(null, "you got canceled on twitter");
 
 		System.exit(0);   //This code ends the program
 	}
 
 	static void dragonLost() {
 		// 12. Tell the user that the dragon has been defeated and they get a ton of gold!
-
+		JOptionPane.showMessageDialog(null, "you got HIM you got canceled on twitter");
 		System.exit(0);   //This code ends the program
 	}
 
