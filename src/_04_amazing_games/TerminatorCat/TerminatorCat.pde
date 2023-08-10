@@ -1,9 +1,11 @@
+
 // 1. Drag and drop an image of a cat onto this sketch
 //    a. First find an image of a cat with BIG eyes(use google to search)
 //    b. Right click on the image and select 'Save image As'
 //    c. Rename the image something short (e.g. cat.jpg)
 //    d. Save the image to your computer's desktop
 //    e. Drag and drop the image anywhere on this sketch
+
 
 
 // This line of code creates a variable to hold your faccate picture
@@ -13,7 +15,7 @@ int x=0;
 int y=0;
 
 void setup() {
-  
+  size (1200,1200);
 // 2. The code below loads your cat picture into the program. 
 //     Make sure the file name is correct for the cat image you saved earlier
 cat = loadImage("cat.jpg");
@@ -51,7 +53,7 @@ void draw() {
 // 10 Use the ellipse() command to draw a circle on the eye (you will have to guess its size). 
 //    Use the x and y variables you just created to place the ellipse in the correct location.
 //                  The ellipse command looks like this:
-                ellipse(x, y, width, height);
+                ellipse(76, 567, width, height);
 // Run the program to make sure it is in the right place and is the right size.
 }
 

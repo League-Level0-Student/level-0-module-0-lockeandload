@@ -59,7 +59,7 @@ public class DragonFight {
 
 				// 7. Find a random number between 0 and 35 and store it in dragonAttack
 			Random gen =new Random (); 
-			int num1 = gen.nextInt(20) + -15;
+			int num1 = gen.nextInt(50) + -15;
 			dragonAttack=(num1);
 				// 8. Subtract the dragon attack value from the player's health
 		playerHealth -= dragonAttack;
@@ -73,7 +73,9 @@ public class DragonFight {
 				// 10. If the dragon's health is less than or equal to 0, the game is over,
 				//     call the dragonLost() method
 
-			
+		if (dragonHealth < 1) {
+			dragonLost();
+		}
 				// 11.  Pop up a message that tells us how much health the player and
 				// 		dragon have left.
 		String playerHp = JOptionPane.showInputDialog(playerHealth);
@@ -82,7 +84,7 @@ public class DragonFight {
 			// round)
 			
 		if (playerHealth < 1) {
-		
+		playerLost();
 		}
 		} // this is the end of the while loop
 		
