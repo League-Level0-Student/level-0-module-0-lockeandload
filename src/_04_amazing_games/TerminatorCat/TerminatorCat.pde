@@ -66,14 +66,14 @@ fill(#990000);
 //      the space bar. Run the program to test it.
 //      If you want it to move to the left, change to x-1=.
 void keyPressed() {
-    x+=6;
-    y+=6;
+    x+=4;
+    y+=4;
     
     if(x > 800) {
   background(cat);
-  ellipse(x, y, 25, 25);
-ellipse(x+57, y-13, 25, 25);
-}
+ x=387;
+ y=296;
+ 
 // 12.  If you want them to go faster, add more than one each time the key is pressed    
 }
  
@@ -90,4 +90,4 @@ ellipse(x+57, y-13, 25, 25);
 //     background(cat);
 
 
-                    
+}
